@@ -3,6 +3,7 @@ package com.example.pizzapartyapp
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
+import android.widget.Button
 import android.widget.EditText
 import android.widget.TextView
 import android.widget.RadioGroup
@@ -25,7 +26,6 @@ class MainActivity : AppCompatActivity() {
     private lateinit var numAttendEditText: EditText
     private lateinit var numPizzasTextView: TextView
     private lateinit var howHungryRadioGroup: RadioGroup
-
     /**
      * Overrides onCreate
      *
@@ -39,13 +39,14 @@ class MainActivity : AppCompatActivity() {
         numAttendEditText = findViewById(R.id.num_attend_edit_text)
         numPizzasTextView = findViewById(R.id.num_pizzas_text_view)
         howHungryRadioGroup = findViewById(R.id.hungry_radio_group)
+
     }
 
     /**
      * calculateClick
      *
      * once button is clicked this function will calculate the appropriate
-     * number of pizza provide the proper components to make such calculation.
+     * number of pizzas provided the proper components to make such calculation.
      *
      * @param view
      *
