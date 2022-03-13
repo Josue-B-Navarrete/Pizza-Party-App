@@ -9,4 +9,5 @@
     <string name="total_pizzas">Total pizzas:</string>
     <string name="calculate">Calculate</string>
     <string name="hint_text">\?</string>
+    <string name="todo">TODO</string>
 </resources>
